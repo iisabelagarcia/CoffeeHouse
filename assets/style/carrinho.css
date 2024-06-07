@@ -1,0 +1,73 @@
+.caixa {
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 15px;
+    padding: 1%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    margin-bottom: 2%;
+}
+
+.caixa_escura {
+    justify-content: center;
+    padding: 7%;
+    margin-left: 5px;
+}
+
+.caixa_escura>h2 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.torramoagem{
+    margin: 10px 0px 0px 10%;
+    color: #3C2F2F;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.especificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10%;
+}
+
+.especificacao>p {
+    color: #3C2F2F;
+    font-weight: 500;
+}
+
+.especificacao>select {
+    background-color: #FFF4E6;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.caixa2 {
+    background-color: #BE9B7B;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5%;
+}
+
+.caixa2 > h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.total > div > p {
+    font-size: 0.8rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colunas {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}

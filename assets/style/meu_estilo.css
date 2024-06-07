@@ -1,0 +1,67 @@
+.torras {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.torras > img {
+    width: 100%
+}
+
+.texto {
+    flex-direction: column;
+    margin: 15%;
+}
+
+h3 {
+    font-family: "Newsreader";
+    font-style: italic;
+    color: #854442;
+    margin-bottom: 15px;
+    margin-right: 2%;
+}
+
+.texto > p {
+    color: rgba(77, 57, 51, 0.6);
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa {
+    width: 47%;
+    height: 20rem;
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 8px;
+    padding: 2%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.caixa > h3 {
+    text-align: right;
+}
+
+.caixa > ul> li {
+    /* list-style: disc; */
+    color: rgba(77, 57, 51, 0.6);
+}
+
+.caixa > img {
+    width: 20%;
+}
+
+.moagem{
+    display: flex;
+}
+
+.moagem > img {
+    width: 20%;
+}
+
+.moagem > h4 {
+    color: #4B3832;
+    font-size: 1rem;
+    justify-content: center;
+}

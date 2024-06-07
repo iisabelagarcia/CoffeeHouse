@@ -1,0 +1,57 @@
+.aviso {
+    height: fit-content;
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 8px;
+    padding: 3%;
+    align-items: center;
+}
+
+.caixa {
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 8px;
+    padding: 2%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-bottom: 20px;
+}
+
+.caixa_escura {
+    flex-direction: column;
+    align-items: start;
+}
+
+select {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.barra {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.interacao {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.interacao > select {
+    margin-bottom: 10px;
+}
+
+.interacao > button {
+    margin-top: 60px;
+}
+
+.busca > input {
+    width: 40%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #BE9B7B;
+    border-style: none;
+    color: #854442;
+}
