@@ -1,0 +1,49 @@
+.imagens {
+    width: 100%;
+    margin-top: 150px;
+    display: flex; 
+}
+
+.imagens > div {
+    width: 50%;
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.cafe {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: flex-end;
+}
+
+.cafe > p{
+    font-size: 0.6rem; 
+    padding-top: 10px;
+    width: 90%;
+    margin-left: 10%;
+}
+
+.cafe > img {
+    width: 90%;
+}
+
+.texto{
+    margin-top: 100px; 
+    display: grid; 
+    grid-template-columns: 25% 65% 10%;
+}
+
+.acreditamos {
+    font-size: 0.8rem; 
+    line-height: 2;
+}
+
+.final {
+    width: 90%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,9 +1,21 @@
 .aviso {
-    height: fit-content;
+    height: min-content;
+    width: 100%;
     background-color: rgba(190, 155, 123, 0.2);
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 3%;
-    align-items: center;
+    justify-content: center;
+}
+
+.importante {
+    margin: 0px; 
+    font-family: "Newsreader"; 
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    color: #854442; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px;
 }
 
 .caixa {
@@ -14,44 +26,46 @@
     display: grid;
     grid-template-columns: 30% 40% 30%;
     margin-bottom: 20px;
+} 
+
+.caixa > p {
+    width: 80%;
+    margin-left: 10%;
 }
 
 .caixa_escura {
     flex-direction: column;
+    width: 100%;
+    height: 100%;
     align-items: start;
-}
-
-select {
-    width: 90%;
-    margin-bottom: 20px;
 }
 
 .barra {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 20px;
 }
 
 .interacao {
     display: flex;
     height: 100%;
+    width: 100%;
     flex-direction: column;
 }
 
 .interacao > select {
     margin-bottom: 10px;
-}
-
-.interacao > button {
-    margin-top: 60px;
-}
-
-.busca > input {
-    width: 40%;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #BE9B7B;
+    color: #FFF4E6;
     border-color: #BE9B7B;
-    border-style: none;
-    color: #854442;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.interacao> div {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
 }

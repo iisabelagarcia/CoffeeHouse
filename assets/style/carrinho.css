@@ -50,12 +50,14 @@
     color: #fff;
     border-radius: 8px;
     padding: 5%;
+    height: fit-content;
 }
 
 .caixa2 > h3 {
     font-size: 1rem;
     margin-bottom: 20px;
     font-weight: 400;
+    overflow: hidden;
 }
 
 .total > div > p {

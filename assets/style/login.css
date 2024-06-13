@@ -1,6 +1,6 @@
-.centro > button {
-    width: 40%;
-    /* height: 35px; */
+.botaofino {
+    width: 50%;
+    margin-left: 25%;
     font-size: 0.8rem;
     font-weight: 500;
     padding-top: 5px;
@@ -16,12 +16,17 @@
     font-weight: 500;
     text-decoration: underline;
     color: #4b3832;
-}
+} 
 
 .legenda > a {
     font-weight: 500;
     text-decoration: underline;
     color: #4b3832;
+}
+
+.input_personalizado > input {
+    margin-left: 30%;
+    width: 40%;
 }
 
 .input_personalizado > input > ::placeholder {

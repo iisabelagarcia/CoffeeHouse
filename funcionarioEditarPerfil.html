@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeHouse</title>
+    <link rel="stylesheet" href="./assets/style/global.css" />
+    <link rel="stylesheet" href="./assets/style/cadastroEditar.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="barra_pesquisa">
+        <div class="div_logo">
+            <a href="./sobreNos.html">CoffeHouse</a>
+        </div>
+        <div class="div_elementos_barra">
+            <a href="./funcionarioAcompanharPedidos.html">Pedidos</a>
+            <a href="./funcionarioEstoque.html">Estoque</a>
+            <a href="./funcionarioLogin.html"><b>Conta</b></a>
+        </div>
+    </div>
+
+    <div class="principal">
+
+        <div class="marcador">
+            <div class="texto_marcador">
+                <h2>Editar Perfil</h2>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alinhamento twocolluns">
+            <div class="smallcollun input_personalizado">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+                <label class="input_personalizado" for="aniversario">Data de Aniversário
+                    <input type="date" name="aniversario">
+                </label>
+            </div>
+            <div class="bigcollun input_personalizado">
+                <input style="width: 77%;" type="endereço" placeholder="E-mail">
+                <div class="input_personalizado">
+                    <input style="margin-right: 1.5%;" class="input_g" type="text" placeholder="RG">
+                    <input class="input_p" type="text" placeholder="UF">
+                </div>
+                <div class="input_personalizado" style="width: 77%; display: flex; flex-direction: row;">
+                    <label class="input_personalizado" style="width: 100%;" for="contato">CPF
+                        <input style=" width: 100%;" type="tel" name="contato" placeholder="000.000.000-00">
+                    </label>
+                    <label class="input_personalizado" style="padding-left: 2%;width: 100%;" for="contato">Número para
+                        Contato
+                        <input type="tel" style=" width: 100%;" name="contato" placeholder="(00) 00000 0000">
+                    </label>
+                </div>
+            </div>
+        </div>
+        <a href="funcionarioAcompanharPedidos.html"><button class="alinhamento botaofino"
+                style="width: 80%; margin-top: 20px;">Atualizar Perfil</button></a>
+
+        <div class="rodape">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

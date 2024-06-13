@@ -1,0 +1,8 @@
+.twocolluns {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.twocolluns > div > p {
+    color: rgba(75, 56, 50, 0.5);
+}

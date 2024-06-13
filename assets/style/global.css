@@ -13,7 +13,7 @@ body {
         "barra_pesquisa"
         "principal";
     grid-template-rows: 15% 85%;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif !important;
 }
 
 .alinhamento {
@@ -178,4 +178,29 @@ body {
 
 .input_personalizado>input> ::placeholder {
     color: rgba(75, 56, 50, 0.8);
+}
+
+.editar {
+    background-color: #FFF4E6;
+    border-color: rgba(60, 47, 47, 0.1);
+    border-style: solid;
+    border-radius: 20px;
+    color: #3C2F2F;
+    padding: 5px;
+    width: 100px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+.visualizar {
+    background-color: #FFF4E6;
+    border-radius: 20px;
+    color: #3C2F2F;
+    padding: 5px;
+    width: 100px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
 }
