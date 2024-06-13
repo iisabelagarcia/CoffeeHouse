@@ -154,3 +154,8 @@ label {
     justify-content: flex-end;
     align-items: flex-end;   
 }
+
+.descricao {
+    display: flex;
+    justify-content: space-between;
+}

@@ -191,7 +191,7 @@ body {
     font-size: 0.7rem;
     font-weight: 700;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .visualizar {
     background-color: #FFF4E6;

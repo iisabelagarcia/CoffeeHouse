@@ -52,9 +52,10 @@
     height: 100%;
     width: 100%;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.interacao > select {
+.interacao > div > select {
     margin-bottom: 10px;
     background-color: #BE9B7B;
     color: #FFF4E6;
@@ -62,10 +63,14 @@
     border-radius: 8px;
     font-size: 0.8rem;
     padding: 5px;
+    width: 100%;
 }
 
-.interacao> div {
-    margin-top: 40px;
+.direita {
+    display: flex;
+}
+
+.direita > button {
     display: flex;
     justify-content: flex-end;
 }
