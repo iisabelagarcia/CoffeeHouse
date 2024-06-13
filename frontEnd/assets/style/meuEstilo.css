@@ -26,8 +26,8 @@
 
 .texto>p {
     color: rgba(77, 57, 51, 0.6);
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
     font-style: italic;
     color: #854442;
     margin-bottom: 15px;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .caixas {
@@ -50,18 +50,24 @@ h3 {
 }
 
 .caixa {
-    width: 92%;
+    width: 93%;
     height: 22rem;
     background-color: rgba(190, 155, 123, 0.2);
     border-radius: 8px;
-    padding: 2%;
+    padding: 3%;
     margin-bottom: 10%;
     align-items: center;
     overflow: hidden;
 }
 
 .caixa>h3 {
+    width: 80%;
     text-align: right;
+    overflow: hidden;
+}
+
+.caixa> ul{
+    overflow: hidden;
 }
 
 .caixa>ul>li {
@@ -74,7 +80,10 @@ h3 {
 }
 
 .moagem {
+    width: 100%;
+    overflow: hidden;
     display: flex;
+    align-items: center;
 }
 
 .moagem>img {
@@ -90,46 +99,123 @@ h3 {
     align-items: center;
 }
 
-.img-metodo {
-    width: 20%;
-    height: 20%;
+.retangulo {
+    width: 7%;
+    height: 3.2%;
     z-index: 3;
     position: relative;
-    bottom: 150px;
-    left: 75%;
+    left: 46.5%;
+    overflow: hidden; 
 }
 
-.img-metodo>img {
+.retangulo>img {
     width: 100%;
     height: 100%;
 }
-.img-metodo1 {
-    width: 20%;
+
+.img-turco {
+    width: 7%;
     height: 20%;
-    display: flex;
-    flex-direction: row;
     z-index: 3;
     position: relative;
-    bottom: 170px;
-    left: 50%;
+    bottom: 195%;
+    left: 43%; 
 }
 
-.img-metodo1>img {
-    width: 90%;
+.img-turco>img {
+    width: 100%;
     height: 90%;
 }
-.img-metodo2 {
-    width: 20%;
+
+.img-espresso {
+    width: 7%;
     height: 20%;
-    display: flex;
-    flex-direction: row;
     z-index: 3;
     position: relative;
-    bottom: 320px;
-    left: 75%;
+    bottom: 217%;
+    left: 78%; 
 }
 
-.img-metodo2>img {
+.img-espresso>img {
+    width: 100%;
+    height: 85%;
+}
+.img-italiana {
+    width: 6%;
+    height: 18%;
+    z-index: 3;
+    position: relative;
+    bottom: 237%;
+    left: 85%; 
+}
+
+.img-italiana>img {
+    width: 100%;
+    height: 95%;
+}
+
+.img-aeropress {
+    width: 7%;
+    height: 20%;
+    z-index: 3;
+    position: relative;
+    bottom: 173%;
+    left: 44%; 
+}
+
+.img-aeropress>img {
+    width: 100%;
+    height: 85%;
+}
+.img-v60 {
+    width: 7%;
+    height: 18%;
+    z-index: 3;
+    position: relative;
+    bottom: 193%;
+    left: 79%; 
+}
+
+.img-v60>img {
+    width: 100%;
+    height: 95%;
+}
+.img-chemex {
+    width: 6%;
+    height: 17%;
+    z-index: 3;
+    position: relative;
+    bottom: 211%;
+    left: 85.5%; 
+}
+
+.img-chemex>img {
+    width: 95%;
+    height: 100%;
+}
+.img-prensa {
+    width: 7%;
+    height: 18%;
+    z-index: 3;
+    position: relative;
+    bottom: 147%;
+    left: 43.5%; 
+}
+
+.img-prensa>img {
     width: 90%;
-    height: 90%;
+    height: 100%;
+}
+.img-cold {
+    width: 7%;
+    height: 18%;
+    z-index: 3;
+    position: relative;
+    bottom: 164%;
+    left: 85%; 
+}
+
+.img-cold>img {
+    width: 100%;
+    height: 100%;
 }
