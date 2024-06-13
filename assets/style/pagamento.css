@@ -1,0 +1,40 @@
+.caixa {
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 15px;
+    padding: 1%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    margin-bottom: 2%;
+}
+
+.caixa_escura{
+    display: flex;
+    height: min-content;
+    width: max-content;
+    overflow: hidden;
+}
+
+.caixa_escura >h2 {
+    font-size: 1.4rem;
+    margin: 0px;
+}
+
+.especificacao {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.especificacao>p {
+    color: rgba(60, 47, 47, 0.6);
+    font-size: 0.9rem;
+    margin: 2px;
+    font-weight: 500;
+}
+
+.especificacao>select {
+    background-color: #FFF4E6;
+    border-style: none;
+    border-radius: 8px;
+}
