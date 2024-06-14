@@ -68,9 +68,6 @@
 
 .direita {
     display: flex;
-}
-
-.direita > button {
-    display: flex;
     justify-content: flex-end;
 }
+

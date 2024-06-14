@@ -3,7 +3,19 @@
     border-radius: 15px;
     padding: 2%;
     display: grid;
-    grid-template-columns: 35% 55% 10%;
+    grid-template-columns: 35% 50% 15%; 
+    margin-top: 2%;
+}
+
+.caixa3 {
+    /* display: none; */
+    background-color: rgba(190, 155, 123, 0.2);
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    z-index: 3;
+    bottom: 50px;
+    padding: 2%;
     margin-bottom: 2%;
 }
 
