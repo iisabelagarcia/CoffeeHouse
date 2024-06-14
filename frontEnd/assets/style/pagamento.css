@@ -8,7 +8,7 @@
 }
 
 .caixa3 {
-    /* display: none; */
+    display: none;
     background-color: rgba(190, 155, 123, 0.2);
     border-radius: 15px;
     border-top-left-radius: 0px;
